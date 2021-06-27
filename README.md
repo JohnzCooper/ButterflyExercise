@@ -8,3 +8,4 @@
 4. Run `node app` to run the server.
 5. Default Port is `3010`
 6. Load `localhost:3010` in the browser.
+7. All default values are in `Config` folder.
