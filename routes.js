@@ -24,7 +24,7 @@ route.get('/moods/:v', (req, res) => {
     if (req.params.v) {
         res.send({mood: moods[req.params.v]});
     } else {
-        res.status(404).send();
+        res.status(404).render("404");
     }
 });
 
