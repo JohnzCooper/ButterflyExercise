@@ -1,6 +1,6 @@
 # ButterflyExercise
 
-## Intallation and Run
+## Installation and run the application
 
 1. Download or clone source code from github [https://github.com/JohnzCooper/ButterflyExercise.git]
 2. Open the source via a code editor or cmd.
