@@ -207,11 +207,12 @@ a {
 
 .question-header-title h4 {
     color: #fff;
+    font-size: 1.5rem;
 }
 
 .question-header-title-note {
     margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     color: hsla(0,0%,100%,.6);
 }
 
