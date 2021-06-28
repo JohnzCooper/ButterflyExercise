@@ -9,6 +9,10 @@ body {
     background: #2ce6ce;
 }
 
+a {
+    text-decoration: none !important;
+}
+
 .moods-body {
     display: flex;
     align-items: center;
