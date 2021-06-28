@@ -180,16 +180,22 @@ a {
     box-sizing: border-box;
     height: 8rem;
     width: 8rem;
-    border: .2rem solid #fff;
+    /* border: .2rem solid #fff;
     border-radius: 50%;
-    background: #fff;
+    background: #fff; */
     display: flex;
     justify-content: center;
+    /* align-items: center; */
 
 }
 
 .question-header-mood img {
-    width: 100%;
+    box-sizing: border-box;
+    height: 8rem;
+    width: 8rem;
+    border: .3rem solid #fff;
+    border-radius: 50%;
+    background: #fff;
 }
 
 .question-header-title {
