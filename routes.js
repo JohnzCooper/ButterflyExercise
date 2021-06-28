@@ -8,7 +8,7 @@ route.get('/', (req, res) => {
 });
 
 route.get('/questions', (req, res) => {
-    if (req.query.v) {
+    if (req.query.v && req.query.v > 0 && req.query.v < 6) {
         res.render('index', { 
             isQuestions: true, 
             questions: questions.sort( () => Math.random() - 0.5 ), 
@@ -24,7 +24,7 @@ route.get('/moods/:v', (req, res) => {
     if (req.params.v) {
         res.send({mood: moods[req.params.v]});
     } else {
-        res.status(404).render("404");
+        res.status(404).send({});
     }
 });
 
