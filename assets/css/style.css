@@ -294,7 +294,7 @@ body {
 .question-form-star-container {
     --gradient-orientation: to right;
     direction: rtl;
-    height: 2rem;
+    height: 3rem;
     border-radius: 2.1rem;
     border: .3rem solid #ededed;
     background: #f7f7f7;
