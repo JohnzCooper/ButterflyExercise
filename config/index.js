@@ -1,5 +1,5 @@
 const PORT = 3010;
-const company = "DEMO INC.";
+const company = "Demo Inc.";
 const moods = {
     1: {
         v: 1,
